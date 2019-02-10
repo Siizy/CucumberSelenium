@@ -1,9 +1,11 @@
 package pageObjects;
 
+import org.openqa.selenium.WebDriver;
+
 public class Testclass {
 
-	Webdriver driver;
-	public Testclass(String driver) {
+	WebDriver driver;
+	public Testclass(WebDriver driver) {
 		this.driver = driver;
 	}
 }
